@@ -17,6 +17,8 @@ exports.icon = (name) => fs.readFileSync(`./public/images/icons/${name}.svg`);
 // Details about the site
 exports.siteName = `Golf Handicap`;
 
-// exports.menu = [
-//   { slug: '/groups', title: 'Groups', icon: 'Group', },
-// ];
+exports.menu = [
+  { slug: '/profile', title: 'Profile' },
+  { slug: '/rounds', title: 'Rounds' },
+  { slug: '/groups', title: 'Groups' }
+];
