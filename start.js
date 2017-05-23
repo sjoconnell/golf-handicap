@@ -18,7 +18,9 @@ mongoose.connection.on('error', (err) => {
 });
 
 // READY?! Let's go!
-
+require('./models/Group');
+require('./models/User');
+require('./models/Round');
 
 // Start our app!
 const app = require('./app');
